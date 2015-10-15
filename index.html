@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Money 20/20 Hackathon - Rent Payment</title>
+
+    <!-- Bootstrap core CSS -->
+        <!--<link href="bootstrap.min.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!-- Custom styles for this template -->
+        <link href="jumbotron.css" rel="stylesheet">
+        <link href="stylesheet.css" rel="stylesheet">
+        <link href="formCheck.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-collapse">
+      
+      <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="#top">Rent Payment</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <!--<div class="collapse navbar-collapse">-->
+                    <ul class="nav navbar-nav">
+                        <li><a></a></li>
+                        <li><a class="navbar-brand" href="#chall">Challenges</a></li>
+                        <li><a></a></li>
+                        <li><a class="navbar-brand" href="#act">Action Plan</a></li>
+                        <li><a></a></li>
+                        <li><a class="navbar-brand" href="#lang">Languages</a></li>
+                        <li><a></a></li>
+                        <li><a class="navbar-brand" href="#join">Join Up</a></li>
+                    </ul>
+                <!--</div>-->
+
+            </div><!--/.navbar-collapse -->
+          </div>
+        </nav>
+      </div>
+  </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+      
+    <div class="jumbotron" id="top">
+    <div class="container">
+        <h1>Money 20/20 Hackathon</h1>
+          <h2> Challenge Proposal</h2>
+        <p>My goal is to build a team for the <a href="http://www.eventbrite.com/e/money2020-hackathon-tickets-17948678982?aff=ehomesaved" target="_blank"><strong>Money 20/20 Hackathon</strong></a>, I have put together a challenge proposal that includes all the challenges and programming languages I would like to use. However as the team is build, I am open to changes and suggestion since I want to build the best <strong>TEAM</strong> to build the best <strong>APP</strong>.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#modalChall">Learn More &raquo;</a></p>
+      </div>
+    </div>
+      
+        <!-- START THE MODAL CHALLENGE -->
+      <div class="modal fade" id="modalChall" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Application Proposal</h4>
+              </div>
+              <div class="modal-body">
+                  <h3>Here We Go!!!</h3>
+                    <p class="text-justify">
+                        In the spirit of bringing the world into the digital age, there has been a gap left in the world of renting. Where around 
+                        <a href="#" id="marketRe" data-toggle="tooltip" data-placement="top" title="Personal Market Research">50%</a>                         
+                        of all renters still pay their monthly rent with a checks. This just seems like a missed opportunity, thus I am proposing the development of an online application to help bridge this gap, by making it easy for both landlords and renters to go digital.
+                    </p >
+                    <p class="text-justify">
+                        To tackel the challenge I have mapped out what I believe is the best course of action, and which program API's and languages will make this application successful.
+                    </p>
+                    <p class="text-justify">
+                        But this is a <strong>TEAM</strong> effort and if the team believes that there is a better way to do it... Then lets make it happen.
+                    </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+      <div class="container" id="chall">
+        <div class="container marketing">
+        
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/140x140/Paypal-logo-pp.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>PayPal/Braintree</h2>
+            <p class="text-justify">
+                To start in developing the online rent payment application, the first challenge is to be able to accept online payment and where better to start then with PayPal/Braintree. With a global reputation, I believe that the intergration of this online payment method will be the first challenge of the day...
+            </p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal2">Challenge &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+          
+        <div class="col-lg-4">
+            <img id="theImg" src="images/140x140/World-logo.png" class="img-circle" alt="Generic placeholder image" width="140" height="140"/>
+          <h2>Worldpay/First Data</h2>
+          <p class="text-justify">
+              Now to be honest, I'm not sure how these two will be used. It's more that I like the challenges and with everything going mobile we could use their APIs in some way. From repetitive billing to thinking of Landlords as small business owners, the possibilities are endless...</p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal3">Challenge &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+          
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/140x140/blockchain-logo.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Blockchain</h2>
+            <p class="text-justify">
+                The third challenge is to have a little fun with <strong>Bitcoins</strong> and use Blockchain's APIs to accept Bitcoins as a way of paying rent. I'm not sure how we'll do this, but if we can, we are openning up a whole new world. Also, there is a little more that I would like to do with Bitcoins but that is still a secret...
+            </p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#modal1">Challenge &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+          
+      </div><!-- /.row -->
+  </div>
+      </div>
+        
+
+        <!-- START THE MODAL'S -->
+        <!-- START THE MODAL 1 - Blockchain -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Blockchain</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3>Blockchain<img src="images/140x140/blockchain-logo.jpg" width="25" height="25"/></h3>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1">
+                        <p><a class="btn btn-default " href="https://blockchain.info/api" role="button" target="_blank" >Visit API &raquo;</a></p>
+                    </div>
+                  
+                </div>
+                
+                    <p class="text-justify">Blockchain is the world’s most popular Bitcoin wallet with over 4M users, and is home to the most widely used Bitcoin APIs. Recognized as the strongest, most trusted brand in Bitcoin, we challenge you to find new and creative uses for the Blockchain API focused on helping new users learn about Bitcoin, transact with Bitcoin, and explore completely new micro-transaction business models.
+                    </p>
+                    <p class="text-left"><strong>Prize:</strong>
+                        <ul>
+                            <li><strong>First Prize:</strong> $5000 USD in Bitcoin divided evenly amongst team members</li>
+                            <li><strong>Runner Up:</strong> New Macbook + Xbox One for each team member</li>
+                        </ul>
+                    </p >                           
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- START THE MODAL 2 - Paypal -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">PayPal/Braintree</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3>PayPal<img src="images/140x140/Paypal-logo-pp.png" width="25" height="25"/></h3>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1">
+                        <p><a class="btn btn-default " href="https://developers.braintreepayments.com/javascript+php/" role="button" target="_blank" >Visit API &raquo;</a></p>
+                    </div>
+                  
+                </div>
+                      <p class="text-justify">Find the most creative use of PayPal or Braintree APIs.</p>
+                <p class="text-left"><strong>Prize:</strong>
+                    <ul>
+                        <li>Razer blade pro laptop with 512GB SSD + 1TB HDD: <a href="http://www.razerzone.com/store/razer-blade-pro" target="_blank">view</a></li>
+                        <li>17" neoprene sleeve cover &amp; messenger bag carry case.</li>
+                    </ul>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- START THE MODAL 3 - Worldpay/First Data -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Worldpay/First Data</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3>First Data<img src="images/140x140/FD-logo.png" width="25" height="25"/></h3>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1">
+                        <p><a class="btn btn-default " href="https://www.firstdata.com/downloads/marketing-merchant/fdgg-web-service-api.pdf" role="button" target="_blank" >Visit API &raquo;</a></p>
+                    </div>
+                  
+                </div>
+                
+                  <p class="text-justify">
+                    First we created the world’s most powerful global payments platforms. Then we brought you a simple API to harness this power. Now show us what you can do. We challenge you to find the most creative use of First Data’s API. We encourage you to be creative, but here are a few ideas: 
+                    <ol>
+                        <li>Build an APP that would enable small merchants to conduct commerce with their consumers through the consumer’s mobile device either: 
+                            <ul>
+                                <li>Restaurant – Order and/or Pay from table or Open-Air Display;</li>
+                                <li>Retail – Buy and Pay – either in-store or out-of-store;</li>
+                                <li>Other Industry</li>
+                                        
+                            </ul> 
+                        </li>
+                        <em>Additional Adds: Incorporate Consumer Loyalty Offers; Incorporate New Payment Method like ApplePay Needs: Support Multiple Small Merchant w/o separate APP downloads
+                                        </em>
+                        <li>Build a <strong>“Find Near Me”</strong> App or Website that enables consumer to enter item needed and to find nearest business to provide item</li>
+                        <em>Additional Adds: Incorporate Price/Distance trade-off; Buy/Deliver from search Needs: Find “item” – not find “business”</em>
+                        <li>Bar-Code Pay – Build the ability for a small merchant, individual to create BarCodes, Affix Codes to Items and Have consumer pay by scanning bar-code through consumer’s mobile device</li>
+                        <em>Needs: Self-service retail – price/buy without Retailer interaction</em>
+                    </ol>
+                  <strong>Prize:</strong> Each member of the winning team will receive:
+                    <ul>
+                        <li><strong>New Toys:</strong> We’ll provide each member of the winning team a new 3D Printer (provide details) and an Apple Watch.</li>
+                        <li><strong>Shopping Spree:</strong> $1,000 in Gyft card. Gyft is a digital gift card platform that lets you manage your gift cards, as well as enabling business to offer easy reward and loyalty programs.</li> 
+                        <li><strong>Quality Time:</strong> Virtual / Skype meeting with either the Clover App Market team or the Payeezy Developer team. You will also have the opportunity to pitch a concept to the First Data Ventures team.</li>
+                    </ul> 
+                </p>
+                
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <h3>Worldpay<img src="images/140x140/World-logo.png" width="25" height="25"/></h3>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1">
+                        <p><a class="btn btn-default " href="https://online.worldpay.com/api-reference#introduction" role="button" target="_blank" >Visit API &raquo;</a></p>
+                    </div>
+                  
+                </div>
+                  <p class="text-justify">
+                    Enhance a consumer's in-store experience using wearables, location services, context, or motion using the Worldpay's SecureNet REST API. The experience can play off of the automation from a wearable or a sophisticated analytics platform that enables the merchant to do more for their customer. You may utilize anything within the API including Vault, Recurring Billing, as well as 50 user defined fields that could be leveraged for data analytics or business insights.
+                      
+                      <p></p>
+ 
+                        <strong>Prize:</strong> Each member of the winning team will receive:
+                    <ul>
+                        <li><strong>Gear:</strong>
+                            <ul>
+                                <li>Apple iWatches</li>
+                                <li>Branded hoody</li>
+                            </ul>
+                        </li>
+                        <li><strong>Sunday (10/25/15) The Quieter Side of Vegas:</strong>
+                            <ul>
+                                <li>Suites at the Palazzo;</li>
+                                <li>8:30 pm dinner reservation for Quiet Post Hackathon Dinner at Sushi Samba at the Palazzo;</li>
+                                <li>The happiest half hour in Vegas – 30 minute ride in a fully air-conditioned Linq high roller observation wheel. Enjoy the happy half hour cabin with open bar and our Worldpay VIP will meet you there.</li>
+                            </ul>
+                        </li> 
+                        <li><strong>Monday (10/26/15):</strong>
+                            <ul>
+                                <li>Transportation to the Airport;</li>
+                                <li>$75 gift cards for the cost to change flights;</li>
+                                <li>And a choice of (1) of the following parting gifts:
+                                    <ul>
+                                        <li>iPad Pros, 32GB</li>
+                                        <li>Admissions to SXSW Interactive Festival and an $800 travel stipend.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> 
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+        <!-- STAGES -->
+        
+    <div class="container" id="act">
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><span class="text-muted">Stage 1: </span>Ready... Set... Build...</h2>
+          <p class="lead">Building the web application is the first order of business. From design to backend structure, being able to put it all together in a way that is easy to understand and grabs the users attention.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/400x/Code-Optimization.png" class="featurette-image img-responsive center-block"  alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading"><span class="text-muted">Stage 2: </span>Lets go for a Walk</h2>
+          <p class="lead">Now lets wrap it and make it mobile. Going mobile is key, for as we take the web application to a mobile application it will make for a stronger market entry. As well as, making the whole process more of an experience.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img src="images/400x/iosAnd.png" class="featurette-image img-responsive center-block" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><span class="text-muted">Stage 3:</span> What's that Watson</h2>
+          <p class="lead">This is the secret sauce and what I believe will make this whole application successful. Thus, I won’t be spoiling the good stuff and only once the team is formed will the word get out.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="images/400x/Peer-to-Peer.png" class="featurette-image img-responsive center-block" alt="Generic placeholder image">
+        </div>
+      </div>
+      <!-- /END THE FEATURETTES -->
+
+      
+    </div>
+
+        <!-- START THE PROGRAMMING LANGUAGES -->
+
+    <div class="container" id="lang">
+        
+        <hr class="featurette-divider">
+        
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3">
+          <h2>HTML &amp; CSS <img src="images/codeLogo/HTML5CSS3Logos.png" /></h2>
+          <p class="text-justify">As a web application HTML &amp; CSS are the bread and butter to developing a great looking and functional application. This is my strongest area of code and will be able to contribute the most in these areas. <br><strong>Extra hands maybe needed.</strong></p>
+          
+        </div>
+        <div class="col-md-3">
+          <h2><img src="images/codeLogo/logo-javascript.png"/></h2>
+          <p class="text-justify"><strong>jQuery</strong> will get us by, but having someone on the team that is proficient in JavaScript will be a great asset to be able to make the site flow. <br><strong>You can bundle JS with HTML &amp; CSS... Lets Talk</strong></p>
+          
+       </div>
+        <div class="col-md-3">
+          <h2><img src="images/codeLogo/PHP-logo.svg.png"/></h2>
+          <p class="text-justify">Now here is an area of code that I'm nearly clueless in. As the backend server side language it is important that to whom this task falls, they can help lead the team in being able to build the necessary systems for the users base site. <br><strong>Login, Update, Transact... Repeat</strong></p>
+          
+        </div>
+          <div class="col-md-3">
+          <h2><img src="images/codeLogo/MySQL.svg.png"/></h2>
+          <p class="text-justify">Finally, we are going to need somewhere to store all this data. Now, MySQL is not the only option, so if you know another that will work better... Great. If you have mad skills in PHP and MySQL... <br> <strong>You have the Job</strong></p>
+          
+        </div>
+      </div>
+    </div>
+    
+        <!-- JOIN THE TEAM -->
+
+    <div class="container" id="join">
+
+      <hr class="featurette-divider">
+    
+    <div class="container marketing">
+      <div class="row">
+          <div class="col-lg-4 col-md-offset-4">
+          <a href="http://www.stuartgardner.info" target="_blank"><img class="img-circle hoverImg" src="images/140x140/Gardner%20Stuart.jpg" alt="Generic placeholder image" width="140" height="140"></a>
+          <h2>Stuart Gardner</h2>
+          <p class="text-justify">Now for a little about me, I have two degrees in business and a strong interest in programming which is all self taught. So, I may not be able to code it all but when it comes to pitching an idea or developing a business plan, <strong>I'm your Guy</strong>. I also, love real estate and that is why I have put together this proposal and I do hope that it will lead to more then just a Hackathon challenge. 
+            </p>
+              <p class="text-justify">
+                <strong>
+                    If this all excites you and you would like to team up. Please message me and lets build something great.  
+                </strong>
+              </p> 
+              <p>
+                <a href="https://www.facebook.com/stuartmvgardner" target="_blank"><img src="images/socialIcon/fb-icon.png" class="img-circle"/></a>
+                
+                <a href="https://twitter.com/Stuartmvg" target="_blank"><img src="images/socialIcon/tw-icon.png" class="img-circle"/></a>
+                <a href="mailto:sgardner2015@student.hult.edu?Subject=Join%20the%20Team" target="_top"><img src="images/socialIcon/em-icon.png" class="img-circle"/></a>
+              </p>
+          <!-- <p><a type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">My Web &raquo;</a></p> -->
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+        
+    </div>
+
+    <div class="container">
+        <hr class="featurette-divider">
+      <footer>
+            <p class="text-center">
+                <strong>Please Note:</strong> Nothing is set in stone and I am open to any suggestion or changes. What I'm really looking to get out of this is to have fun and meet some great people, with the <strong>STRONG</strong> possibility of building a StartUp. <br> If, we win. Well thats just an added bonus.
+            </p>
+            <img class="center-block" src="images/SMVG.png" width="75px"/>
+
+        
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- This is all the small JS -->
+
+    <script type="text/javascript">    
+        var images = new Array ('images/140x140/World-logo.png', 'images/140x140/FD-logo.png');
+        function ChangeLogo()
+            {
+              var i = document.getElementById('theImg'); // randomly pick image from array
+              i.src = images[Math.floor(Math.random()*2)];
+              setTimeout("ChangeLogo()", 1500); // Change logo every 8 seconds
+            }
+        window.onload = ChangeLogo; // Start change once page loaded
+        
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();   
+                });
+    </script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="bootstrap.min.js"></script>
+    
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
